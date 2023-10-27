@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intech - Frontend Project</title>
+
+    <!-- CUSTOM META DATA -->
+    <meta name="title" content="intech. - Frontend Project">
+    <meta name="description" content="We are a Reliable & Consistent IT-Solutions company providing you with solutions that you need to run your business. We have a stong team of experts and excellent ecosystem that will provide you with tools to succeed.">
+    <meta name="keywords" content="IT-solutions, IT-services, Cyber Security, Design, Web Development, Photography">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Suvayan">
+
+    <!-- CUSTOM META DATA -->
+
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FONT AWESOME CSS -->
+
+    <!-- BOOTSTRAP CSS & JS -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- BOOTSTRAP CSS & JS -->
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+
+    <!-- AOS -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <!-- AOS -->
+
+    <!-- jQuery -->
+    <!-- <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- jQuery -->
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.1196b5a9.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.b71481b0.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.54ec8d5c.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <!-- FAVICON -->
+
+    <!-- MAIN -->
+
+    <link rel="stylesheet" href="index.044e704e.css">
+    <script src="index.18dbc454.js" defer=""></script>
+    <!-- MAIN -->
+  </head>
+  <body class="">
+    <!-- SEARCH MODAL -->
+    <div class="custom-modal hidden w-75">
+      <form action="">
+        <!-- <label for="search"></label> -->
+        <input type="text" name="search" id="search" placeholder="Type here to search..." class="ps-4">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <!-- SEARCH MODAL -->
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
+            <p class="m-0">We are reliable & consistent IT-Solution team</p>
+          </div>
+          <div class="col-lg-6 justify-content-center align-items-center d-flex justify-content-lg-end" data-aos="fade-left">
+            <p class="m-0 me-5">
+              <i class="fa-solid fa-clock me-2"></i>Mon - Sat 9.00 - 18.00
+            </p>
+            <a class="" href="tel:2512353256"><i class="fa-solid fa-phone me-2"></i>(251) 235-3256</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TOP NAVBAR -->
+
+    <!-- TOP MAIN NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top bg-white">
+      <div class="container" data-aos="zoom-in">
+        <a class="navbar-brand fs-3 fw-bolder" href="#">intech.</a>
+        <!-- navbar-toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered fs-3 fw-bolder menu-open"></i>
+          <i class="fa-solid fa-xmark fs-2 fw-bolder menu-close"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item ms-3 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-3 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-3 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                News
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link show-modal" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item ms-3 me-auto">
+              <a class="nav-link btn-common btn-color-primary px-4 py-3" href="#">Sign in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- TOP MAIN NAVBAR -->
+
+    <!-- HEADER SECTION -->
+    <header class="section-hero py-5">
+      <div class="container pt-0 pb-5 py-md-5">
+        <div class="row">
+          <div class="col-lg-7 d-flex flex-column justify-content-center">
+            <h1 class="heading-primary">Reliable & Consistent IT-Solutions</h1>
+            <p class="paragraph-primary mb-5">We provide IT-Services</p>
+            <p class="paragraph-secondary mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              laborum quibusdam nemo praesentium.
+            </p>
+            <a href="#" class="btn-common btn-color-primary px-4 py-3 me-auto">Learn more</a>
+          </div>
+          <div class="col-lg-5 mt-5 mt-lg-0">
+            <img class="w-100" src="hero.61fef799.jpg" alt="Person working on a laptop">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER SECTION -->
+    <main>
+      <!-- TOP CTA FORM -->
+      <section class="section-cta-top py-5">
+        <form action="" method="post">
+          <div class="container p-5" data-aos="fade-up">
+            <div class="row mb-3">
+              <div class="col">
+                <h3>Book Appointment</h3>
+                <p class="">
+                  Dolor sit amet consectetur elit sed do eiusmod tempor
+                  incididunt
+                </p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-4 mb-2">
+                <label for="name"></label><input class="w-100 p-3" type="text" name="name" id="name" placeholder="Full name" required="" autocomplete="name">
+              </div>
+              <div class="col-md-4 mb-2">
+                <label for="email"></label><input class="w-100 p-3" type="email" name="email" id="email" placeholder="Email" required="" autocomplete="email">
+              </div>
+              <div class="col-md-4 mb-2">
+                <label for="topic"></label><select class="w-100 p-3" name="topic" id="topic">
+                  <option value="0">Discussion about:</option>
+                  <option value="1">Multi-function services</option>
+                  <option value="2">Managed IT services</option>
+                  <option value="3">Cyber security</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <p>
+                  Lorem ipsum dolor amet constur adipisicing elit sed eiusmpor
+                  incid dolore magna aliqu enim minim veniam quis nostrud
+                  exercittion.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <button type="submit" class="px-4 py-3 d-block ms-md-auto btn-common btn-color-primary">
+                  Get Appointment
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <!-- SECTION IT-SERVICES -->
+        <div class="container" data-aos="fade-up">
+          <div class="row mb-5">
+            <div class="col">
+              <h2 class="heading-secondary text-center">
+                We provide world's best<br><span>IT-Services</span>
+              </h2>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-sm-6 col-lg-4" data-aos="flip-up">
+              <a href="#" class="anchor-cards-anchor">
+                <div class="anchor-cards px-4 py-5 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fa-solid fa-laptop-code mb-5"></i>
+                  <h3 class="fs-5 text-center">Managed IT-services</h3>
+                  <p class="text-center text-secondary">
+                    Lorem ipsum dolor amet consectetur adipisicing sed do
+                    eiusmod tempor incididunt ut labore.
+                  </p>
+                  <i class="fa-solid fa-angle-right d-flex justify-content-center align-items-center"></i>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mt-5 mt-sm-0" data-aos="flip-up">
+              <a href="#" class="anchor-cards-anchor">
+                <div class="anchor-cards px-4 py-5 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fa-solid fa-gears mb-5"></i>
+                  <h3 class="fs-5 text-center">Multi-function services</h3>
+                  <p class="text-center text-secondary">
+                    Lorem ipsum dolor amet consectetur adipisicing sed do
+                    eiusmod tempor incididunt ut labore.
+                  </p>
+                  <i class="fa-solid fa-angle-right d-flex justify-content-center align-items-center"></i>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mx-sm-auto mt-5 mt-lg-0" data-aos="flip-up">
+              <a href="#" class="anchor-cards-anchor">
+                <div class="anchor-cards px-4 py-5 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fa-solid fa-user-shield mb-5"></i>
+                  <h3 class="fs-5 text-center">Cyber Security</h3>
+                  <p class="text-center text-secondary">
+                    Lorem ipsum dolor amet consectetur adipisicing sed do
+                    eiusmod tempor incididunt ut labore.
+                  </p>
+                  <i class="fa-solid fa-angle-right d-flex justify-content-center align-items-center"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION IT-SERVICES -->
+      </section>
+      <!-- TOP CTA FORM -->
+
+      <!-- BEST COMPANY -->
+      <section class="best-company py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <h2 class="heading-secondary mb-5">
+                Best IT-Solutions company<br><span>in the world</span>
+              </h2>
+              <p class="paragraph-secondary-small mb-3">
+                Dolor sit amet consectetur elit sed do eiusmod tempor incididunt
+                labore et dolore magna aliqua enim ad minim veniam quis nostrud
+                exercitation ulac
+              </p>
+              <ul class="nav mb-3">
+                <li class="nav-item me-2 mb-1">
+                  <a class="nav-link active px-4 py-3 me-3" aria-current="page" href="#">Our Mission</a>
+                </li>
+                <li class="nav-item me-2 mb-1">
+                  <a class="nav-link px-4 py-3 me-3" href="#">Our Vision</a>
+                </li>
+                <li class="nav-item me-2 mb-1">
+                  <a class="nav-link px-4 py-3 me-3" href="#">Awards</a>
+                </li>
+              </ul>
+              <p class="paragraph-secondary-small mb-3">
+                Dolor sit amet consectetur elit sed do eiusmod tempor incididunt
+                labore et dolore magna aliqua enim ad minim veniam quis nostrud
+                exercitation ulac laboris aliquip ex ea commodo consequat duis
+                aute irure.dolor in repre henderit in voluptate velit esse
+                cillum dolore.
+              </p>
+              <ul class="mb-3">
+                <li>
+                  <p class="paragraph-secondary-small">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </li>
+                <li>
+                  <p class="paragraph-secondary-small">
+                    Lorem ipsum dolor sit.
+                  </p>
+                </li>
+                <li>
+                  <p class="paragraph-secondary-small">
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </li>
+              </ul>
+              <a href="#" class="btn-common btn-color-primary px-4 py-3">Read more</a>
+            </div>
+            <div class="col-lg-6">
+              <img src="best-it.5102845d.jpg" alt="IT company office, developers working in the office" class="w-100">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BEST COMPANY -->
+
+      <!-- SECTION PARTNERS -->
+      <section class="section-partners py-5">
+        <div class="container my-5">
+          <div class="row align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+              <div class="row align-items-center">
+                <div class="col">
+                  <img src="forbes.21a23a09.png" class="w-100" alt="Hindustan times logo">
+                </div>
+                <div class="col">
+                  <img src="business-insider.e85406ea.png" class="w-100" alt="The New York Times logo">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+              <div class="row align-items-center">
+                <div class="col">
+                  <img src="techcrunch.11cf7924.png" class="w-100" alt="Gadgets 360 logo">
+                </div>
+                <div class="col">
+                  <img src="usa-today.08c626a4.png" class="w-100" alt="Hindustan times logo">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mx-auto mx-lg-0">
+              <div class="row align-items-center">
+                <div class="col">
+                  <img src="the-new-york-times.ff1e6b7e.png" class="w-100" alt="The New York Times logo">
+                </div>
+                <div class="col">
+                  <img src="forbes.21a23a09.png" class="w-100" alt="Hindustan times logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION PARTNERS -->
+
+      <!-- SECTION SERVICES -->
+      <section class="section-services">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-6 p-0 mb-5 mb-xl-0">
+              <img src="services.bd932520.jpg" alt="Developers working in the office" class="w-100">
+            </div>
+            <div class="col-xl-6 px-sm-5 pt-sm-5">
+              <h2 class="heading-secondary mb-5">
+                We run all kinds of IT services that<br><span>vow your success</span>
+              </h2>
+              <p class="paragraph-secondary-small mb-3">
+                Dolor sit amet consectetur elit sed do eiusmod tempor incididunt
+                labore et dolore magna aliqua enim ad minim veniam quis nostrud
+                exercitation ullamco laboris aliquip ex ea commodo consequat
+                duis aute irure dolor in reprehenderit voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <a href="" class="btn-common btn-color-secondary px-4 py-3">Read More</a>
+              <a href="" class="btn-common btn-color-primary px-4 py-3">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION SERVICES -->
+
+      <!-- SECTION EXPERTS -->
+      <section class="section-experts pt-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+              <h2 class="heading-secondary mb-5">
+                Meet with our<br><span>best experts</span>
+              </h2>
+              <p class="paragraph-secondary-small mb-3">
+                Dolor sit amet consectetur elit sed eiusmod tempor incididunt
+                labore et dolore magna aliqua enim minim veniam quis nostrud
+                exercitation ullamco.
+              </p>
+              <a href="#" class="btn-common btn-color-primary py-3 px-4">Join us</a>
+            </div>
+
+            <div class="col-md-6 col-lg-4 profile-container px-5">
+              <div class="profile mb-4 mx-auto">
+                <img src="expert-1.f35ef041.jpg" alt="Company employee profile photo" class="profile-image">
+                <ul class="profile-social-media-links d-flex flex-row gap-3 list-unstyled">
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="profile-info mb-5">
+                <p class="paragraph-primary text-center mb-1">Full Name</p>
+                <p class="paragraph-secondary text-center">
+                  Position, Designation
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 profile-container px-5">
+              <div class="profile mb-4 mx-auto">
+                <img src="expert-2.e2e2b93a.jpg" alt="Company employee profile photo" class="profile-image">
+                <ul class="profile-social-media-links d-flex flex-row gap-3 list-unstyled">
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="profile-info mb-5">
+                <p class="paragraph-primary text-center mb-1">Full Name</p>
+                <p class="paragraph-secondary text-center">
+                  Position, Designation
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 profile-container px-5">
+              <div class="profile mb-4 mx-auto">
+                <img src="expert-3.687b7ca1.jpg" alt="Company employee profile photo" class="profile-image">
+                <ul class="profile-social-media-links d-flex flex-row gap-3 list-unstyled">
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="profile-info mb-5">
+                <p class="paragraph-primary text-center mb-1">Full Name</p>
+                <p class="paragraph-secondary text-center">
+                  Position, Designation
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 profile-container px-5">
+              <div class="profile mb-4 mx-auto">
+                <img src="expert-4.dae90f0f.jpg" alt="Company employee profile photo" class="profile-image">
+                <ul class="profile-social-media-links d-flex flex-row gap-3 list-unstyled">
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="profile-info mb-5">
+                <p class="paragraph-primary text-center mb-1">Full Name</p>
+                <p class="paragraph-secondary text-center">
+                  Position, Designation
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 profile-container px-5">
+              <div class="profile mb-4 mx-auto">
+                <img src="expert-5.b4009f18.jpg" alt="Company employee profile photo" class="profile-image">
+                <ul class="profile-social-media-links d-flex flex-row gap-3 list-unstyled">
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="profile-info mb-5">
+                <p class="paragraph-primary text-center mb-1">Full Name</p>
+                <p class="paragraph-secondary text-center">
+                  Position, Designation
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION EXPERTS -->
+
+      <!-- SECTION PROJECTS -->
+      <section class="section-projects py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="heading-secondary text-center mb-5">
+                Thousands of projects completed<br><span>in 20 countries</span>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <ul class="nav justify-content-center mb-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">All</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Design</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Web Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Illustration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Photography</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="project">
+                <img class="w-100 project-image" src="project-1.dfafa029.jpg" alt="Laptop screen">
+                <div class="project-image-overlay">
+                  <a href="" class="btn-common btn-color-secondary py-3 px-3"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="project">
+                <img class="w-100 project-image" src="project-2.47269590.jpg" alt="Developers working and discussing on a project">
+                <div class="project-image-overlay">
+                  <a href="" class="btn-common btn-color-secondary py-3 px-3"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="project">
+                <img class="w-100 project-image" src="project-3.1e37ada1.jpg" alt="Robotics and AI engineer testing robotic hand">
+                <div class="project-image-overlay">
+                  <a href="" class="btn-common btn-color-secondary py-3 px-3"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="project">
+                <img class="w-100 project-image" src="project-4.95e9f9d9.jpg" alt="Laptop screen running design softwares">
+                <div class="project-image-overlay">
+                  <a href="" class="btn-common btn-color-secondary py-3 px-3"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col text-center">
+              <a href="#" class="btn-common btn-color-primary py-3 px-4">All projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION PROJECTS -->
+
+      <!-- SECTION TESTIMONIALS -->
+      <section class="testimonials py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="heading-secondary text-center mb-5">
+                See what our customers<br><span>are saying...</span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <blockquote class="d-flex gap-4 review-container">
+                <div class="">
+                  <img class="w-100 rounded-circle" src="reviewer-1.367da876.jpg" alt="Customer profile photo">
+                </div>
+                <div class="">
+                  <p class="mb-5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Itaque ab expedita culpa vitae natus vero deleniti incidunt
+                    reiciendis quae voluptatum.<span class="name d-block mt-3">Peter Ramsey / Designer</span><span class="rating d-block mt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                  </p>
+                </div>
+              </blockquote>
+            </div>
+            <div class="col-md-6">
+              <blockquote class="d-flex gap-4 review-container">
+                <div class="">
+                  <img class="w-100 rounded-circle" src="reviewer-2.c1a82703.jpg" alt="Customer profile photo">
+                </div>
+                <div class="">
+                  <p class="mb-5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Itaque ab expedita culpa vitae natus vero deleniti incidunt
+                    reiciendis quae voluptatum.<span class="name d-block mt-3">Peter Ramsey / Designer</span><span class="rating d-block mt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                  </p>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION TESTIMONIALS -->
+
+      <!-- SECTION STATISTICS -->
+      <section class="section-statistics py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <p class="text-center heading-primary numbers fw-bolder mb-1">
+                90
+              </p>
+              <p class="numbers-description text-center d-block fs-6 fw-medium text-white">
+                Projects Complete
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <p class="text-center heading-primary numbers fw-bolder mb-1">
+                216
+              </p>
+              <p class="numbers-description text-center d-block fs-6 fw-medium text-white">
+                Satisfied Clients
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <p class="text-center heading-primary numbers fw-bolder mb-1">
+                35
+              </p>
+              <p class="numbers-description text-center d-block fs-6 fw-medium text-white">
+                Experienced Staffs
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <p class="text-center heading-primary numbers fw-bolder mb-1">
+                10
+              </p>
+              <p class="numbers-description text-center d-block fs-6 fw-medium text-white">
+                International Awards
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION STATISTICS -->
+
+      <!-- NEWS AND INSIGHT -->
+      <section class="section-news py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 mb-5 mb-md-0">
+              <h2 class="heading-secondary mb-5">
+                Latest news &<br><span>insights</span>
+              </h2>
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                debitis vitae beatae fugiat iste labore recusandae.
+              </p>
+              <div class="d-flex author align-items-center gap-4">
+                <div class="author-img">
+                  <img class="w-100 rounded-circle" src="expert-3.687b7ca1.jpg" alt="Company employee profile photo">
+                </div>
+                <div class="">
+                  <p class="author-name mb-0">
+                    by <strong>Amanda Williams</strong> / May 10, 2030
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <img class="w-100" src="news.ace27e89.jpg" alt="People sitting inside an audatorium">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NEWS AND INSIGHT -->
+
+      <!-- SECTION-CONTACT-US -->
+      <section class="section-contact-us py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="heading-secondary text-center mb-5">
+                Make a contact with our IT staffs.<br><span>Call Us</span>
+              </h2>
+              <p class="text-center">
+                <a href="tel:3055873407" class="fs-2 fw-semibold mx-auto">305-587-3407</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION-CONTACT-US -->
+
+      <!-- FOOTER -->
+      <footer class="footer py-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-8">
+                  <h3 class="mb-4">
+                    <a class="navbar-brand fs-3 fw-bolder" href="#">intech.</a>
+                  </h3>
+
+                  <p>
+                    Lorem ipsum dolor amet consectetur adipielit sed eiusm
+                    tempor incididunt ut labore dolore magna aliqua enim ad
+                    minim veniam quis nostrud exercitation.
+                  </p>
+
+                  <ul class="d-flex gap-4 list-unstyled">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-vimeo-v"></i> </a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i> </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h3 class="mb-4">Quick Links</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Company history</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-4">
+                  <h3 class="mb-4">Services</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Managed IT</a></li>
+                    <li><a href="#">Multifunction</a></li>
+                    <li><a href="#">Cyber security</a></li>
+                    <li><a href="#">Data management</a></li>
+                    <li><a href="#">Cloud computing</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-8 ps-md-5">
+                  <h3 class="mb-4">Contact</h3>
+                  <p>Flat 20, Reynolds Neck, North Hele naville, FV77 8WS</p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="tel:+2(305)587-3407">+2(305) 587-3407</a>
+                    </li>
+                    <li>
+                      <a href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col d-flex justify-content-between flex-column flex-md-row">
+              <p class="mx-auto mx-md-0">
+                intech. &copy; 2023 All Right Reserved
+              </p>
+              <div class="mx-auto mx-md-0">
+                <a href="#">Terms of Service</a> |
+                <a href="#">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- FOOTER -->
+    </main>
+  </body>
+</html>
